@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+  box-sizing: border-box;
+}
+.head-container {
+  background: url(media1/images/marx-bg.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+.head-container:hover {
+  opacity: 1;
+  transition: 0.4s;
+}
+/* Standard Settings */
+
+/* Header container */
+.primary-nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+}
+.primary-nav .links {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  column-gap: 10px;
+}
+.primary-nav .links a {
+  text-decoration: none;
+  padding-left: 15px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.primary-nav .links a:hover {
+  color: rgb(240, 230, 232);
+  font-size: 25px;
+}
+.title-container {
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+h1 {
+  font-size: 55px;
+  color: #000;
+  align-self: flex-start;
+  padding-left: 30px;
+}
+h4 {
+  font-size: 20px;
+  color: #000;
+  align-self: flex-start;
+  width: 300px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
+
+/* main content */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-container h2 {
+  margin-top: 1rem;
+  max-width: 90vw;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.content-container p {
+  max-width: 70%;
+  text-align: justify;
+  margin: 3rem auto;
+  font-size: 2rem;
+}
+picture {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+picture img {
+  display: inline-block;
+  max-width: 30%;
+  max-height: 30%;
+}
+
+.books {
+  max-width: 95vw;
+  margin-top: 2rem;
+}
+.books .lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3rem;
+  list-style-type: none;
+}
+.books .lists .book-heading {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
+}
+.books .lists img {
+  display: inline-block;
+  width: 30rem;
+  height: 40rem;
+}
+footer {
+  width: 100vw;
+  height: 10rem;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
